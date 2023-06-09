@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: darkgrey;
+}
+
+.myform{
+    width: 40%;
+    margin: 25px auto;
+    background-color: silver;
+    padding: 20px;
+    border-radius: 10px;
+    border: 4px solid lightcyan;
+}
+
+input[type="text"]{
+    width: 100%;
+    height: 35px;
+    padding: 15px 5px;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+}
+
+
+input[type="text"]:hover{
+    background-color: lightblue;
+    /*outline-style: solid;
+    outline-offset: 4px;*/
+}
+input[type="submit"] {
+    padding: 15px 25px;
+    font-size: 24px;
+    border: none;
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(56, 146, 34);
+    padding: 18px 26px;
+}
+
+.form-gorup{
+    padding-bottom: 10px;
+}
+
+.info{
+    font-family: sofia;
+}
+
+/* REGISTRATION FORM STYLE */
+
+.reg{
+    width: 40%;
+    margin: 25px auto;
+    background-color: silver;
+    padding: 20px;
+    border-radius: 10px;
+    border: 4px solid lightcyan;
+}
+
+input[type="text"],[type="email"],[type="password"],[type="tel"]{
+    width: 100%;
+    height: 25px;
+    padding: 5px 5px;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+}
+
+input[type="date"]{
+    width: 30%;
+    height: 30px;
+    padding: 5px 5px;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: aquamarine;
+}
+.reg-group select{
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+
+input[type="text"]:hover{
+    background-color: lightblue;
+    outline-style: solid;
+    outline-offset: 4px;
+}
+
+input[type="file"]{
+    width: 30%;
+    height: 30px;
+
+}
+input[type="submit"] {
+    padding: 15px 25px;
+    font-size: 24px;
+    border: none;
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(56, 146, 34);
+    padding: 18px 26px;
+}
+
+.reg-group{
+    padding-bottom: 10px;
+}
+
+.info{
+    font-family: sofia;
+}
+
+.img{
+    position: fixed;
+    margin-left: 80%;
+    bottom: 30px;
+    left: 80px;     
+}
+.div1{
+    background-color: blue;
+    padding: 20px 10px;
+    color: white;
+}
+
+.container{
+    width: 100%;
+    border: 10px solid black;
+    margin: 50px auto;
+   
+}
+
+.box1,{
+    width: 45%;
+    border: 4px solid lightblue;
+    border-radius: 10px;
+    float: left;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 100%;
+    border: 10px solid black;
+    margin: 50px auto;
+   
+}
+
+.box1, .box2, .box3{
+    width: 30%;
+    border: 4px solid lightblue;
+    border-radius: 10px;
+    padding: 15px 15px;
+    float: left;
+    margin: 20px;
+    box-sizing: border-box;
+}
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
